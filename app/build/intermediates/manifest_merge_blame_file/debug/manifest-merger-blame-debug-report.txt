@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.finalquiz"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+11-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:5:5-78
+11-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:8:5-48:19
+15        android:allowBackup="true"
+15-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /Users/carlaklaes/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:14:9-40
+24        <activity android:name="com.example.finalquiz.audiofile" />
+24-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:15:9-56
+24-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:15:19-44
+25        <activity android:name="com.example.finalquiz.email" />
+25-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:16:9-43
+25-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:16:19-40
+26        <activity android:name="com.example.finalquiz.browser" />
+26-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:17:9-45
+26-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:17:19-42
+27        <activity android:name="com.example.finalquiz.contacts" />
+27-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:18:9-46
+27-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:18:19-43
+28        <activity android:name="com.example.finalquiz.picture" />
+28-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:19:9-45
+28-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:19:19-42
+29        <activity android:name="com.example.finalquiz.alarm" />
+29-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:20:9-43
+29-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:20:19-40
+30        <activity android:name="com.example.finalquiz.MainActivity" >
+30-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:21:9-47:20
+30-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:21:19-47
+31            <intent-filter>
+31-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:23:17-69
+32-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:25:17-77
+34-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36            <intent-filter>
+36-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:27:13-31:29
+37                <action android:name="android.intent.action.SET_ALARM" />
+37-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:28:17-74
+37-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:28:25-71
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:30:17-76
+39-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:30:27-73
+40            </intent-filter>
+41            <intent-filter>
+41-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:32:13-36:29
+42                <action android:name="android.media.action.IMAGE_CAPTURE" />
+42-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:33:17-77
+42-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:33:25-74
+43
+44                <category android:name="android.intent.category.DEFAULT" />
+44-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:30:17-76
+44-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:30:27-73
+45            </intent-filter>
+46            <intent-filter>
+46-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:37:13-43:29
+47                <action android:name="android.intent.action.SENDTO" />
+47-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:38:17-71
+47-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:38:25-68
+48
+49                <data android:scheme="mailto" />
+49-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:40:17-49
+49-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:40:23-46
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:30:17-76
+51-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:30:27-73
+52            </intent-filter>
+53            <intent-filter>
+53-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:44:13-46:29
+54                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+54-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:45:17-84
+54-->/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/src/main/AndroidManifest.xml:45:25-81
+55            </intent-filter>
+56        </activity>
+57    </application>
+58
+59</manifest>

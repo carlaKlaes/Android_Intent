@@ -1,0 +1,7 @@
+#Mon Jan 27 22:01:52 EST 2020
+base.0=/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/carlaklaes/Desktop/semester_4/Android2/finalQuiz/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

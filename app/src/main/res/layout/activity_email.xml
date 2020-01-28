@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".email">
+
+
+    <EditText
+        android:id="@+id/et_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="TO: emails separated by comma"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_cc"
+        android:layout_below="@+id/et_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="CC: emails separated by comma" />
+
+    <EditText
+        android:id="@+id/et_bcc"
+        android:layout_below="@+id/et_cc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="BCC: emails separated by comma" />
+
+        <EditText
+        android:id="@+id/et_subject"
+        android:layout_below="@+id/et_bcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Subject" />
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_below="@+id/et_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Message" />
+
+    <Button
+        android:id="@+id/btn_send_enail"
+        android:layout_below="@+id/et_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:onClick="sendEmail"/>
+
+</RelativeLayout>
